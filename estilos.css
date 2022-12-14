@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Bit;
+    src: url(./Fuentes/8bitOperatorPlus8-Regular.ttf);
+}
+.fondo
+{
+    background-image: url(./Imagenes/fondo.png);
+    background-size: cover;
+}
+
+.pokedex
+{
+    margin: 15vh;
+    background-image: url(./Imagenes/pokedex-png-2.png);
+    width: 880px;
+    height: 715px;
+}
+
+.imgP
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textoPokedex
+{
+    font-family: Bit;
+    font-size: medium;
+    background: #fbd4b3;
+    max-width: 25vh;
+}
+.barrabusqueda
+{
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+}
+.barrabusqueda2
+{
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+    padding-right: 10vh;
+}
+.botonB
+{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 1px 1px   rgba(0, 0, 0, 0.1);
+    font-family: Bit;
+}
+.div201
+{
+    height: 20vh;
+}
+.div202
+{
+    height: 20vh;
+}
+/* Celular mediano vertical*/
+@media (max-width :375px)
+{
+    .fondo
+    {
+        background-image: url(./Imagenes/fondo.png);
+        background-position: center;
+        background-size: 1000vh;
+        background-repeat: no-repeat;
+    }
+    .pokedex
+    {
+    
+        margin: 5vh;
+        margin-top: 60vh;
+        background-image: url(./Imagenes/pokedex-png-2.png);
+        width: 880px;
+        height: 715px;
+    }
+    .div201
+    {
+        height: 20vh;
+    }
+    .div202
+    {
+        height: 25vh;
+    }
+    .textoPokedex
+    {
+        font-family: Bit;
+        font-size: 18px;
+        background: #fbd4b3;
+        max-width: 20vh;
+    }
+    .barrabusqueda2
+    {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        padding-right: 25vh;
+    }
+}
+/* Celular mediano horizontal*/
