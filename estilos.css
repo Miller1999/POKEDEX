@@ -58,8 +58,8 @@
 {
     height: 20vh;
 }
-/* Celular mediano vertical*/
-@media (max-width :375px)
+/*480 x 800*/
+@media (max-width :480px)
 {
     .fondo
     {
@@ -71,33 +71,202 @@
     .pokedex
     {
     
-        margin: 5vh;
-        margin-top: 60vh;
+        margin: 40px;
+        margin-top: 360px;
         background-image: url(./Imagenes/pokedex-png-2.png);
         width: 880px;
         height: 715px;
     }
     .div201
     {
-        height: 20vh;
+        height: 120px;
     }
     .div202
     {
-        height: 25vh;
+        height: 128px;
     }
     .textoPokedex
     {
         font-family: Bit;
         font-size: 18px;
         background: #fbd4b3;
-        max-width: 20vh;
+        max-width: 160px;
     }
     .barrabusqueda2
     {
         display: flex;
         justify-content: center;
         gap: 5px;
-        padding-right: 25vh;
+        padding-right: 120px;
     }
 }
-/* Celular mediano horizontal*/
+/* 640 x 1136*/
+@media (min-width :480.1px) and (max-width: 640px)
+{
+    .fondo
+    {
+        background-image: url(./Imagenes/fondo.png);
+        background-position: center;
+        background-size: 1000vh;
+        background-repeat: no-repeat;
+    }
+    .pokedex
+    {
+    
+        margin: 56.8px;
+        margin-top: 511.2px;
+        background-image: url(./Imagenes/pokedex-png-2.png);
+        width: 880px;
+        height: 715px;
+    }
+    .div201
+    {
+        height: 120px;
+    }
+    .div202
+    {
+        height: 130px;
+    }
+    .textoPokedex
+    {
+        font-family: Bit;
+        font-size: 18px;
+        background: #fbd4b3;
+        max-width: 170px;
+    }
+    .barrabusqueda2
+    {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        padding-right: 110px;
+    }
+}
+/* 750 x 1334*/
+@media (min-width :640.1px) and (max-width: 750px)
+{
+    .fondo
+    {
+        background-image: url(./Imagenes/fondo.png);
+        background-position: center;
+        background-size: 1000vh;
+        background-repeat: no-repeat;
+    }
+    .pokedex
+    {
+    
+        margin: 56.8px;
+        margin-top: 511.2px;
+        background-image: url(./Imagenes/pokedex-png-2.png);
+        width: 880px;
+        height: 715px;
+    }
+    .div201
+    {
+        height: 120px;
+    }
+    .div202
+    {
+        height: 130px;
+    }
+    .textoPokedex
+    {
+        font-family: Bit;
+        font-size: 18px;
+        background: #fbd4b3;
+        max-width: 170px;
+    }
+    .barrabusqueda2
+    {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        padding-right: 110px;
+    }
+}
+/* 1080 x 1920*/
+@media (min-width :750.1px) and (max-width: 1080px)
+{
+    .fondo
+    {
+        background-image: url(./Imagenes/fondo.png);
+        background-position: center;
+        background-size: 1000vh;
+        background-repeat: no-repeat;
+    }
+    .pokedex
+    {
+    
+        margin: 56.8px;
+        margin-top: 511.2px;
+        margin-left: 100.8px;
+        background-image: url(./Imagenes/pokedex-png-2.png);
+        width: 880px;
+        height: 715px;
+    }
+    .div201
+    {
+        height: 120px;
+    }
+    .div202
+    {
+        height: 130px;
+    }
+    .textoPokedex
+    {
+        font-family: Bit;
+        font-size: 18px;
+        background: #fbd4b3;
+        max-width: 170px;
+    }
+    .barrabusqueda2
+    {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        padding-right: 110px;
+    }
+}
+/* 1440 x 2560*/
+@media (min-width :1080.1px) and (max-width: 1440px)
+{
+    .fondo
+    {
+        background-image: url(./Imagenes/fondo.png);
+        background-position: center;
+        background-size: 1000vh;
+        background-repeat: no-repeat;
+    }
+    .pokedex
+    {
+    
+        margin: 56.8px;
+        margin-top: 511.2px;
+        margin-left: 100.8px;
+        background-image: url(./Imagenes/pokedex-png-2.png);
+        width: 880px;
+        height: 715px;
+    }
+    .div201
+    {
+        height: 120px;
+    }
+    .div202
+    {
+        height: 130px;
+    }
+    .textoPokedex
+    {
+        font-family: Bit;
+        font-size: 18px;
+        background: #fbd4b3;
+        max-width: 170px;
+    }
+    .barrabusqueda2
+    {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        padding-right: 110px;
+    }
+}
