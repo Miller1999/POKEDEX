@@ -14,7 +14,7 @@ const fetchPokemon = () => {
     }).then((data) => {
         if (data) {
             console.log(data);
-            let pokeImg = data.sprites.front_default;
+            let pokeImg = data.sprites.other.home.front_default || data.sprites.front_default;
             let pokeInfo = data.abilities;
             let pokeN = data.name;
             let pokeI = data.id;
